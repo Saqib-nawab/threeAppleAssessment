@@ -3,6 +3,7 @@ import React from 'react';
 import HeroSection from './components/HeroSection';
 import EndorsementSection from "./components/EndorsementSection";
 import EducationSolutionsSection from "./components/EducationSolutionsSection";
+import SoftwareSolutionsSection from "./components/SoftwareSolutionsSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <EndorsementSection />
       <EducationSolutionsSection />
+      <SoftwareSolutionsSection />
     </div>
   );
 }
