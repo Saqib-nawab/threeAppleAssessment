@@ -6,6 +6,7 @@ import EducationSolutionsSection from "./components/EducationSolutionsSection";
 import SoftwareSolutionsSection from "./components/SoftwareSolutionsSection";
 import ContactSection from "./components/ContactSection";
 import StayInformedSection from './components/StayInformedSection';
+import FooterSection from './components/FooterSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <SoftwareSolutionsSection />
       <ContactSection />
       <StayInformedSection />
+      <FooterSection />
     </div>
   );
 }
