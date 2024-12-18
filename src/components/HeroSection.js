@@ -4,11 +4,11 @@ import Navbar from "./Navbar";
 
 const HeroSection = () => {
     return (
-        <div className="relative bg-[#00244E] text-white min-h-screen flex flex-col justify-center items-center pb-0">
+        <div className="relative bg-[#00244E] text-white flex flex-col justify-center items-center pb-0">
             {/* Navbar */}
             <Navbar />
             {/* Header Section */}
-            <div className="text-center px-4 sm:px-8">
+            <div className="text-center px-4 sm:px-8 py-32">
                 <h2 className="text-lg sm:text-2xl font-medium uppercase mb-2">
                     Leading the Charge In EdTech Transformation
                 </h2>
@@ -33,7 +33,7 @@ const HeroSection = () => {
             </div>
 
             {/* Image Section */}
-            <div className="relative mt-12 w-full ">
+            <div className="relative mt-8 w-full ">
                 {/* Background Image */}
                 <img
                     src={require('../assests/background-lines.png')}

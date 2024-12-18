@@ -1,9 +1,8 @@
-// src/components/Navbar.js
 import React from "react";
 
 const Navbar = () => {
     return (
-        <nav className="w-full bg-transparent absolute top-0 left-0 z-20">
+        <nav className="max-w-6xl w-[90%] bg-white fixed top-4 left-0 right-0 mx-auto z-20 shadow-md rounded-full px-6 py-3">
             <div className="container mx-auto flex items-center justify-between px-4 py-4">
                 {/* Logo */}
                 <div>
@@ -15,24 +14,24 @@ const Navbar = () => {
                 </div>
 
                 {/* Navigation Links */}
-                <ul className="hidden md:flex space-x-8 text-white text-sm font-medium">
-                    <li className="hover:text-gray-300 cursor-pointer">Home</li>
-                    <li className="hover:text-gray-300 cursor-pointer">About Us</li>
-                    <li className="hover:text-gray-300 cursor-pointer">SIS</li>
-                    <li className="hover:text-gray-300 cursor-pointer">Digital Services</li>
-                    <li className="hover:text-gray-300 cursor-pointer">Portfolio</li>
-                    <li className="hover:text-gray-300 cursor-pointer">Contact Us</li>
+                <ul className="hidden md:flex space-x-8 text-gray-700 text-sm font-medium">
+                    <li className="hover:text-gray-500 cursor-pointer">Home</li>
+                    <li className="hover:text-gray-500 cursor-pointer">About Us</li>
+                    <li className="hover:text-gray-500 cursor-pointer">SIS</li>
+                    <li className="hover:text-gray-500 cursor-pointer">Digital Services</li>
+                    <li className="hover:text-gray-500 cursor-pointer">Portfolio</li>
+                    <li className="hover:text-gray-500 cursor-pointer">Contact Us</li>
                 </ul>
 
                 {/* Request a Demo Button */}
                 <div>
-                    <button className="hidden md:block bg-white text-blue-900 px-5 py-2 rounded-full font-medium hover:bg-gray-200">
+                    <button className="hidden md:block bg-blue-800 text-white px-5 py-2 rounded-full font-medium hover:bg-blue-700">
                         Request a Demo
                     </button>
                 </div>
 
                 {/* Mobile Menu Placeholder */}
-                <div className="md:hidden text-white text-2xl cursor-pointer">
+                <div className="md:hidden text-gray-700 text-2xl cursor-pointer">
                     ☰
                 </div>
             </div>
