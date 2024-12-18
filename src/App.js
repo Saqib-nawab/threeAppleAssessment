@@ -5,6 +5,7 @@ import EndorsementSection from "./components/EndorsementSection";
 import EducationSolutionsSection from "./components/EducationSolutionsSection";
 import SoftwareSolutionsSection from "./components/SoftwareSolutionsSection";
 import ContactSection from "./components/ContactSection";
+import StayInformedSection from './components/StayInformedSection';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <EducationSolutionsSection />
       <SoftwareSolutionsSection />
       <ContactSection />
+      <StayInformedSection />
     </div>
   );
 }
